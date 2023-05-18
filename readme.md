@@ -35,4 +35,29 @@ Install the required dependencies using the following command:
 
 ```shell
 pip install numpy opencv-python matplotlib
+```
+## Usage
 
+1. Clone this repository
+
+```shell
+git clone https://github.com/sushiselite/KMeans-Compress.git
+```
+
+2. Navigate to the project directory
+
+```shell
+cd KMeans-Compress
+```
+
+3. Start the Jupyter Notebook server
+
+```shell
+jupyter notebook
+```
+
+4. Open the Compress.ipynb file in your browser or your choice of IDE, and run the notebook cells step-by-step to observe the image compression process.
+
+## License
+
+This project is licensed under the MIT License.
