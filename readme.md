@@ -11,15 +11,12 @@ This Jupyter Notebook demonstrates an image compression technique using K-Means 
 
 ## Introduction
 
-K-Means clustering is a popular unsupervised machine learning algorithm that can be applied to various domains, including image processing. This notebook demonstrates how K-Means clustering can be utilized to compress an image by reducing the number of distinct colors in the image.
+K-Means clustering is a popular unsupervised machine learning algorithm that can be applied to various domains, including image processing. This notebook demonstrates how K-Means clustering can be utilized to compress an image by reducing the number of distinct colors in the image. This notebook allows you compress your own custom images.
 
 The notebook covers the following main steps:
-1. Loading the input image
-2. Preprocessing the image
-3. Applying K-Means clustering
-4. Reducing the color palette
-5. Reconstructing the compressed image
-6. Evaluating the compression ratio
+1. Data Anlysis on RGB dataset for any given image
+2. Machine Learning using KMeans clustering to compress the image
+3. Comparing different values for 'k' clusters to find an optimal number of clusters for personal use-cases
 
 ## Requirements
 
@@ -43,6 +40,7 @@ pip install numpy opencv-python matplotlib
 ```shell
 git clone https://github.com/sushiselite/KMeans-Compress.git
 ```
+(You can now open the 'images' folder, delete all contents and add a .jpg of your choice that you would like to examine and compress)
 
 2. Navigate to the project directory
 
